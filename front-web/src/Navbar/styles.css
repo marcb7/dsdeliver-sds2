@@ -1,0 +1,16 @@
+.main-navbar{
+    height: 70px;
+    background-color: #DA5C5C;
+    padding-left: 45px; /* padding é o espaçamento interno da barra */
+    display: flex;  /* O atributo display: flex; é útil quandos se trabalha com lista de itens, e também para alinhar elementos na tela.*/
+    align-items: center;    /* O atributo 'align-items' só é usado quando se está usando o display: flex; */
+}
+
+.logo-text{
+    font-weight: bold;          /* Peso da fonte */
+    font-size: 24px;            /* Estilo da fonte */
+    line-height: 33px;
+    letter-spacing: -0.015em;   /* Espaçamento entre letras */
+    color: #FFFFFF;             /* Cor a fonte */
+    margin-left: 15px;
+}
